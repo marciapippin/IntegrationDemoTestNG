@@ -22,7 +22,7 @@ public class BaseTest {
 	
 	@BeforeTest
 	public void goToGoogle() {
-		driver.get("https://www.google.com");
+		driver.get("https://www.gmail.com");
 	}
 	
 	@AfterTest

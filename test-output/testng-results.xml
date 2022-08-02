@@ -1,66 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T15:07:21 PDT" name="Suite" finished-at="2022-08-02T15:07:22 PDT" duration-ms="1188">
+  <suite started-at="2022-08-02T16:38:20 PDT" name="Default suite" finished-at="2022-08-02T16:38:22 PDT" duration-ms="2073">
     <groups>
     </groups>
-    <test started-at="2022-08-02T15:07:21 PDT" name="Test" finished-at="2022-08-02T15:07:22 PDT" duration-ms="1188">
-      <class name="com.qa.testdemo.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testdemo.BaseTest@74ea2410]" started-at="2022-08-02T15:07:18 PDT" name="setUp" finished-at="2022-08-02T15:07:21 PDT" duration-ms="2876" status="PASS">
+    <test started-at="2022-08-02T16:38:20 PDT" name="Default test" finished-at="2022-08-02T16:38:22 PDT" duration-ms="2073">
+      <class name="com.qa.testdemo.SimpleTestDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testdemo.SimpleTestDemo@3e27ba32]" started-at="2022-08-02T16:38:17 PDT" name="setUp" finished-at="2022-08-02T16:38:20 PDT" duration-ms="2786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goToGoogle()[pri:0, instance:com.qa.testdemo.BaseTest@74ea2410]" started-at="2022-08-02T15:07:21 PDT" name="goToGoogle" finished-at="2022-08-02T15:07:22 PDT" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="goToGoogle()[pri:0, instance:com.qa.testdemo.SimpleTestDemo@3e27ba32]" started-at="2022-08-02T16:38:20 PDT" name="goToGoogle" finished-at="2022-08-02T16:38:22 PDT" duration-ms="1706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testdemo.BaseTest@74ea2410]" started-at="2022-08-02T15:07:22 PDT" name="tearDown" finished-at="2022-08-02T15:07:22 PDT" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.testdemo.BaseTest -->
-      <class name="com.qa.testdemo.SimpleTestDemo">
-        <test-method signature="verifySignInLinkTest()[pri:1, instance:com.qa.testdemo.SimpleTestDemo@74d1dc36]" started-at="2022-08-02T15:07:22 PDT" name="verifySignInLinkTest" finished-at="2022-08-02T15:07:22 PDT" duration-ms="6" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.qa.testdemo.SimpleTestDemo.verifySignInLinkTest(SimpleTestDemo.java:15)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifySignInLinkTest()[pri:1, instance:com.qa.testdemo.SimpleTestDemo@3e27ba32]" started-at="2022-08-02T16:38:22 PDT" name="verifySignInLinkTest" finished-at="2022-08-02T16:38:22 PDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testdemo.SimpleTestDemo@3e27ba32]" started-at="2022-08-02T16:38:22 PDT" name="tearDown" finished-at="2022-08-02T16:38:22 PDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testdemo.SimpleTestDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

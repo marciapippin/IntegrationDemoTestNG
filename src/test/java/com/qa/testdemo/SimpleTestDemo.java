@@ -13,7 +13,7 @@ public class SimpleTestDemo extends BaseTest{
 	@Test(priority=1)
 	public void verifySignInLinkTest() {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		if(driver.findElement(By.linkText("Sign in")).isDisplayed()) {
+		if(driver.findElement(By.id("identifierId")).isDisplayed()) {
 			System.out.println("Sign in is displayed");
 		}else {
 			System.out.println("Sign in is not displayed");
